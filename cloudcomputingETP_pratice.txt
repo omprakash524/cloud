@@ -1,0 +1,65 @@
+1.creation of vertiual machine - snapshot,clons
+                       //netdevgroup.com
+    ...1}vitual machine....
+      1) double click to open vmware workstation
+       2) Click the File tab and then select New Virtual  Machine from the dropdown menu.
+       3) Choose the Typical and click Next.
+        4) to install guest operating system using ISO image,select Use ISO image, and click browser function.
+        5)select Desktop, selct ISO name file, Click Open
+       6)ISO file path Should be displayed in box under Use ISO image, click Next
+       7)select Linux, click Next
+
+
+
+
+2. HOl 
+   -> vertiualition 101
+
+
+   ->getting started with v relize operation
+                       //pathfinder.vmwarecom
+     ......MODULE 1 - OVERVIEW OF VREALIZE  OPERATIONS 
+        // This module contains the following lessons:
+             . Log in to vRealize Operations
+            .Introduction to the Enhanced User Interface and Quick Start menu
+           .Top Navigation Bar
+             .Dashboard Navigation
+            .Alerts Navigation
+           .Environment Navigation
+           .Administration Navigation
+           .Using the Search Bar
+           .Home Page - Navigation Bar
+              
+     ......Module2-PERFORMANCE TUNING
+          .Hands-on Labs Interactive Simulation: Optimize Performance with Rightsizing
+
+     ......MODULE 3 - CAPACITY AND COST MANAGEMENT
+
+
+3. cloud sim -
+        you mjust know steps of cloud sim- 
+
+4. Docker- 
+     .example question- how to pull an image, how to remove image in container
+      .differnce between stop and kill
+                      //playwithdocker
+
+docker comammnd -> docker -v
+                   docker - version
+                   docker pull hello-world
+                   docker run hello-world
+                   docker pull ubuntu
+
+                   docker run - it ubuntu         // for enter in ubuntu framwork
+                   use "ls"                       // for list inside ubuntu
+                   exit                           // for exit ubuntu framwork
+ 
+                   docker rmi hello-world           //remove image
+                   docker rmi -f hello-world       //forcefully remove image
+                   docker stop containerID        //
+
+                   docker ps                      //use only in downloaded version of docker
+                   docker ps -a                   // gives container id and other information
+                   docker images                  // gives tag
+
+             for perticular version - ubuntu:20.04 or image id
